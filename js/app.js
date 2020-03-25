@@ -1,5 +1,4 @@
-var url = window.location,
-    heartBeat;
+var url = window.location.href;
 var swLocation = '/twittor';
 
 if (url.includes('localhost')) {
